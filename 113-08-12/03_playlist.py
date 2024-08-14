@@ -7,7 +7,7 @@ DIR = 'C:\\Youtube'
 
 ydl_opts = {
     'format': 'worst',
-    'outtmpl': f'{DIR}/%(playlist_title)s.%(ext)s',
+    'outtmpl': f'{DIR}/%(playlist_title)s/%(title)s.%(ext)s',
 }
 
 try:
